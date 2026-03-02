@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: article
+title: "Frobenius Eigenvalues and Gauss Sums from Witt Vector Carry Arithmetic"
+authors:
+  - family-names: "Alimonti"
+    given-names: "Stefano"
+    orcid: "https://orcid.org/0009-0009-1183-1698"
+    email: "stefalimonti@gmail.com"
+date-released: "2026-03-05"
+url: "https://github.com/stefanoalimonti/carry-frobenius"
+repository-code: "https://github.com/stefanoalimonti/carry-frobenius"
+license: CC-BY-4.0
+keywords:
+  - Witt vectors
+  - carry arithmetic
+  - Frobenius endomorphism
+  - Gauss sums
+  - Artin-Schreier varieties
+  - Weil conjectures
+  - transfer operators
+  - Fermat curves
+abstract: >-
+  We construct a transfer operator on the carry state space of truncated
+  Witt vector multiplication over F_p and prove that its characteristic
+  polynomial contains exact Frobenius polynomials of algebraic varieties.
+  For p=3, the quadratic factor mu^2+3mu+3 is the Frobenius of a
+  supersingular elliptic curve (Theorem A). For p=7, the genus-3 factor
+  (mu^2-7)^2(mu^2+7) has supersingular roots equal to the quadratic
+  Gauss sum g(chi^3) of the Legendre symbol (Theorem B). The carry
+  exponent is equidistributed on F_p^*, and Weil eigenvectors are
+  orthogonal to the all-ones vector, consistent with an Artin-Schreier
+  interpretation. Dirichlet character twists produce Weil eigenvalues
+  at every prime tested (p=3 through 23). We conjecture that the carry
+  operator computes the Frobenius on the Artin-Schreier variety
+  z^p - z = c_2(x,y).

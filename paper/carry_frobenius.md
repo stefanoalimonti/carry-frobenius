@@ -692,10 +692,10 @@ Two obstructions prevent immediate globalization: the genus obstruction (the $p^
 
 ### Companion Papers (carry-arithmetic series)
 
-- [A] S. Alimonti, *Spectral Theory of Carries in Positional Multiplication*, this series. (Foundation: the m-bit Equidistribution Lemma extending Diaconis–Fulman to the carry transfer operator.)
-- [E] S. Alimonti, *The Trace Anomaly of Binary Multiplication*, this series. (The Shifted Resolvent Theorem: $R = -\pi$ via resolvent universality, conditional on the Linear Mix Hypothesis.)
-- [G] S. Alimonti, *The Angular Uniqueness of Base 2 in Positional Multiplication*, this series. (Why base 2 is the unique base for which $c_1 = \pi/18$ involves $\pi$; base-3 evidence for $c_1(3) = \ln 3 - 1/2$.)
-- [P1] S. Alimonti, *π from Pure Arithmetic: A Spectral Phase Transition in the Binary Carry Bridge*, this series. (The conjectured emergence of $\pi$ from binary carry dynamics.)
+- [A] S. Alimonti, *Spectral Theory of Carries in Positional Multiplication*, this series. doi:10.5281/zenodo.18895593. (Foundation: the m-bit Equidistribution Lemma extending Diaconis–Fulman to the carry transfer operator.)
+- [E] S. Alimonti, *The Trace Anomaly of Binary Multiplication*, this series. doi:10.5281/zenodo.18895604. (The Shifted Resolvent Theorem: $R = -\pi$ via resolvent universality, conditional on the Linear Mix Hypothesis.)
+- [G] S. Alimonti, *The Angular Uniqueness of Base 2 in Positional Multiplication*, this series. doi:10.5281/zenodo.18895601. (Why base 2 is the unique base for which $c_1 = \pi/18$ involves $\pi$; base-3 evidence for $c_1(3) = \ln 3 - 1/2$.)
+- [P1] S. Alimonti, *π from Pure Arithmetic: A Spectral Phase Transition in the Binary Carry Bridge*, this series. doi:10.5281/zenodo.18895611. (The conjectured emergence of $\pi$ from binary carry dynamics.)
 
 ---
 

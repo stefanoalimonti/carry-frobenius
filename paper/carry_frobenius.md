@@ -174,7 +174,7 @@ The Witt addition and multiplication polynomials $S_k$, $P_k$ are obtained by in
 
 ### 2.2 The Witt Carry
 
-**Definition 2.3** (Level-$k$ Witt carry). For $x, y \in W_n(\mathbb{F}_p)$ and an operation $\star \in \{+, \times\}$, the level-$k$ Witt carry is
+**Definition 2.3** (Level-$k$ Witt carry). For $x, y \in W_n(\mathbb{F}_p)$ and an operation $\star \in \lbrace{}+, \times\rbrace{}$, the level-$k$ Witt carry is
 
 $$c_k(x, y) \equiv \frac{w_k(x) \star w_k(y) - \sum_{i=0}^{k-1} p^i z_i^{p^{k-i}}}{p^k} \pmod{p}$$
 
@@ -229,7 +229,7 @@ The $9 \times 9$ exponent matrix $E$ (where $M_{j,i} = \omega^{E_{j,i}}$) has:
 - 16 entries equal to 1 (carry $\equiv 1$)
 - 16 entries equal to 2 (carry $\equiv 2$)
 
-The non-trivial entries (carry $\neq 0$) are concentrated in rows and columns corresponding to states $(x, y)$ with $x, y \in \{1, 2\}$ (the units of $\mathbb{F}_3$). When either $x_0 = 0$ or $y_0 = 0$, the Witt product has $z_0 = 0$ and the level-2 carry vanishes.
+The non-trivial entries (carry $\neq 0$) are concentrated in rows and columns corresponding to states $(x, y)$ with $x, y \in \lbrace{}1, 2\rbrace{}$ (the units of $\mathbb{F}_3$). When either $x_0 = 0$ or $y_0 = 0$, the Witt product has $z_0 = 0$ and the level-2 carry vanishes.
 
 ### 3.2 Rationality of the Characteristic Polynomial
 
@@ -259,7 +259,7 @@ $$\mathrm{Gal}(\mathbb{Q}(\omega)/\mathbb{Q})$$
 
 -symmetry of the carry operator.
 
-The Galois automorphism $\sigma: \omega \mapsto \omega^2$ acts on the matrix $M$ by replacing $\omega^{c_2}$ with $\omega^{2c_2}$. Since the Witt carry values $c_2$ take each residue class $\{0, 1, 2\}$ with multiplicities $49, 16, 16$ (and $16 = 16$: the non-zero classes appear equally often), the carry distribution is invariant under the permutation $c \mapsto 2c \pmod{3}$ induced by $\sigma$. This forces $\sigma(M)$ to be conjugate to $M$ by a permutation matrix, so
+The Galois automorphism $\sigma: \omega \mapsto \omega^2$ acts on the matrix $M$ by replacing $\omega^{c_2}$ with $\omega^{2c_2}$. Since the Witt carry values $c_2$ take each residue class $\lbrace{}0, 1, 2\rbrace{}$ with multiplicities $49, 16, 16$ (and $16 = 16$: the non-zero classes appear equally often), the carry distribution is invariant under the permutation $c \mapsto 2c \pmod{3}$ induced by $\sigma$. This forces $\sigma(M)$ to be conjugate to $M$ by a permutation matrix, so
 
 $$\mathrm{Tr}(\sigma(M)^k) = \mathrm{Tr}(M^k)$$
 
@@ -297,7 +297,7 @@ This is the characteristic polynomial of Frobenius $t^2 - a_p t + p$ with $a_p =
 
 *Proof.* Direct enumeration:
 
-$$E(\mathbb{F}_3) = \{(0, \pm 1), (1, \pm 1), (2, \pm 1), \mathcal{O}\},$$
+$$E(\mathbb{F}_3) = \lbrace{}(0, \pm 1), (1, \pm 1), (2, \pm 1), \mathcal{O}\rbrace{},$$
 
 giving $7$ points. Hence $a_3 = 3 + 1 - 7 = -3$, and the Frobenius polynomial is $t^2 - (-3)t + 3 = t^2 + 3t + 3$. Since $a_3 \equiv 0 \pmod{3}$, the curve is supersingular. $\square$
 
@@ -309,7 +309,7 @@ $$\chi_{M_{\text{add}}}(\mu) = \mu^6 \cdot (\mu^3 - 6\mu^2 + 9)$$
 
 *which contains no elliptic curve Frobenius factor.*
 
-*Proof.* Same method as Theorem A, replacing Witt multiplication by Witt addition. The cubic $\mu^3 - 6\mu^2 + 9$ has three real roots $\{5.725, 1.399, -1.124\}$ (none on $\lvert\mu\rvert = \sqrt{3}$). $\square$
+*Proof.* Same method as Theorem A, replacing Witt multiplication by Witt addition. The cubic $\mu^3 - 6\mu^2 + 9$ has three real roots $\lbrace{}5.725, 1.399, -1.124\rbrace{}$ (none on $\lvert\mu\rvert = \sqrt{3}$). $\square$
 
 This confirms that the Frobenius emerges specifically from the multiplicative structure, consistent with the fact that the Frobenius endomorphism on Witt vectors interacts non-trivially only with multiplication.
 
@@ -625,7 +625,7 @@ A database search identifies 6 elliptic curves over $\mathbb{Q}$ satisfying both
 **Interpretation.** The carry variety $V_p$ depends on $p$: the Fermat curve $C_p: X^p + Y^p = 1$ is a different curve at each prime, not the reduction mod $p$ of a fixed curve over $\mathbb{Q}$. This is consistent with the geometric picture — the carry operator encodes the *local* arithmetic of the Fermat quotient at each prime, and there is no single global object of which these are reductions.
 
 The path to a global $L$-function, if it exists, must therefore involve either:
-- A more sophisticated global construction (e.g., a family $\{C_p\}_p$ parameterized by $p$, in the spirit of Hasse–Weil for families of varieties).
+- A more sophisticated global construction (e.g., a family $\lbrace{}C_p\rbrace{}_p$ parameterized by $p$, in the spirit of Hasse–Weil for families of varieties).
 - A product over the *character-decomposed* local factors from §5.4, which may exhibit better cross-prime coherence.
 
 ### 8.3 The Cubic Factor
